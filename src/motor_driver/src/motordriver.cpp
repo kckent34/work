@@ -1,6 +1,6 @@
 //motordriver.cpp
 //g++ motordriver.cpp -I ../../include/motor_driver -std=c++11
-// motor driver code class to control all 4 motors 
+ 
 
 #include "motordriver.h"
 
