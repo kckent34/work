@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/motor_init.dir/src/motor_init.cpp.o  -o motor_init -rdynamic 

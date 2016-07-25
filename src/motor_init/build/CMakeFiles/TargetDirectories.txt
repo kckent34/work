@@ -1,0 +1,1 @@
+/home/odroid/Desktop/work/src/motor_init/build/CMakeFiles/motor_init.dir

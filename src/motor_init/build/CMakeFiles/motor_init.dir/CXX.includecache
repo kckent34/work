@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/motordriver.h
+stdlib.h
+-
+sys/ioctl.h
+-
+iostream
+-
+fcntl.h
+-
+linux/i2c.h
+-
+linux/i2c-dev.h
+-
+unistd.h
+-
+stdint.h
+-
+math.h
+-
+
+/home/odroid/Desktop/work/src/motor_init/src/motor_init.cpp
+motordriver.h
+/home/odroid/Desktop/work/src/motor_init/src/motordriver.h
+

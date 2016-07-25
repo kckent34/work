@@ -206,7 +206,7 @@ int main(void)
 	  clock_gettime(CLOCK_REALTIME,&oldT);
 	  int returnVal;
 	  uint16_t m0Val = motor::map_values(0);
-	  printf("%i \n ",m0Val);
+
 	  returnVal =  motor0.send_motor_data(0,m0Val);
 	  returnVal =  motor1.send_motor_data(0,705);
 	  returnVal =  motor2.send_motor_data(0,705);
